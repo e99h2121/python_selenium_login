@@ -27,9 +27,6 @@ https://www.mittsu-kosen.com/chromedriver%E3%82%92windows10%E3%81%A7%E3%82%A4%E3
 
 1.5 and 1.6 is not needed
 
-
-
-
 ###  create and execute sample code
 
 python_org_search.py
@@ -120,4 +117,6 @@ finally:
     os.kill(driver.service.process.pid,signal.SIGTERM) 
 
 ```
+
+### make it scheduled
 
