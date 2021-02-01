@@ -10,6 +10,10 @@ https://selenium-python.readthedocs.io/installation.html
 
 1.2
 
+`python -m pip install selenium`
+
+or
+
 `python3 -m pip install selenium`
 
 1.3
@@ -21,7 +25,9 @@ brew install chromedriver
 ```
 
 windows
-install chromedriver for windows
+`pip install chromedriver-binary-auto`
+
+or 
 
 https://www.mittsu-kosen.com/chromedriver%E3%82%92windows10%E3%81%A7%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%E3%80%90%E7%94%BB%E5%83%8F%E4%BB%98%E3%81%8D%E3%80%91/
 
@@ -34,6 +40,7 @@ python_org_search.py
 ```
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import chromedriver_binary # for pip install chromedriver-binary-auto if you use mac insatll above
 
 driver = webdriver.Chrome()
 driver.get("http://www.python.org")
