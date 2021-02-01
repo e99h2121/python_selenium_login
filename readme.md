@@ -69,6 +69,7 @@ login.py
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import chromedriver_binary # for pip install chromedriver-binary-auto if you use mac insatll above
 
 url = ""
 elem_name_inp_uid = ""
@@ -100,6 +101,7 @@ import os
 import signal
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import chromedriver_binary # for pip install chromedriver-binary-auto if you use mac insatll above
 
 try:
     url = ""
@@ -135,3 +137,8 @@ elems_btns[0].click();
 
 ```
 
+if it need javascript
+
+```
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+```
