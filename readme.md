@@ -19,13 +19,15 @@ or
 1.3
 
 mac
+
 ```
 brew update 
 brew install chromedriver
 ```
 
 windows
-`pip install chromedriver-binary-auto`
+
+`python -m pip install chromedriver-binary-auto`
 
 or 
 
