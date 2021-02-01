@@ -142,3 +142,17 @@ if it need javascript
 ```
 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 ```
+
+### schedule or 1 click
+
+1click 
+
+create bat file or sh file
+
+schedule
+
+mac
+https://fremilli.com/mac-cron-python/
+
+windows
+https://www.atmarkit.co.jp/ait/articles/1305/31/news049.html
