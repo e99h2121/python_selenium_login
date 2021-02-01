@@ -118,5 +118,11 @@ finally:
 
 ```
 
-### make it scheduled
+if it does not have id for button
+
+```
+elems_btns = driver.find_elements_by_class_name("")
+elems_btns[0].click();
+
+```
 
