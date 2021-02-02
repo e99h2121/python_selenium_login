@@ -22,3 +22,5 @@ elem_btn_login.click()
 time.sleep(5)
 
 driver.close()
+
+
